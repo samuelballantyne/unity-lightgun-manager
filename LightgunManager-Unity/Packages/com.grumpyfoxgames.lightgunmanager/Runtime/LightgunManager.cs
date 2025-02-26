@@ -178,6 +178,38 @@ namespace GrumpyFoxGames
                 damageCommand =    INIReader.GetValue("Sinden", "Damage"),
                 outOfAmmoCommand = INIReader.GetValue("Sinden", "OutOfAmmo")
             }
+        },
+        new Gun
+        {
+            name = "OpenFIRE",
+            settings = new GunSettings
+            {
+                vid =              INIReader.GetValue("RetroShooter", "VID"),
+                pid =              INIReader.GetValue("RetroShooter", "PID"),
+                baud =             INIReader.GetValue("RetroShooter", "BAUD"),
+                startCommand =     INIReader.GetValue("RetroShooter", "Start"),
+                stopCommand =      INIReader.GetValue("RetroShooter", "Stop"),
+                shootCommand =     INIReader.GetValue("RetroShooter", "Shoot"),
+                reloadCommand =    INIReader.GetValue("RetroShooter", "Reload"),
+                damageCommand =    INIReader.GetValue("RetroShooter", "Damage"),
+                outOfAmmoCommand = INIReader.GetValue("RetroShooter", "OutOfAmmo")
+            }
+        },
+        new Gun
+        {
+            name = "Generic",
+            settings = new GunSettings
+            {
+                vid =              INIReader.GetValue("RetroShooter", "VID"),
+                pid =              INIReader.GetValue("RetroShooter", "PID"),
+                baud =             INIReader.GetValue("RetroShooter", "BAUD"),
+                startCommand =     INIReader.GetValue("RetroShooter", "Start"),
+                stopCommand =      INIReader.GetValue("RetroShooter", "Stop"),
+                shootCommand =     INIReader.GetValue("RetroShooter", "Shoot"),
+                reloadCommand =    INIReader.GetValue("RetroShooter", "Reload"),
+                damageCommand =    INIReader.GetValue("RetroShooter", "Damage"),
+                outOfAmmoCommand = INIReader.GetValue("RetroShooter", "OutOfAmmo")
+            }
         }
     };
 
